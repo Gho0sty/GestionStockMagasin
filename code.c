@@ -5,12 +5,12 @@
 #define C 1000
 
 typedef struct {
-					int reference;
-					char nom_modele[N];
-					float prix;
-					int stock;
-					float valeur;
-				} objet;
+		int reference;
+		char nom_modele[N];
+		float prix;
+		int stock;
+		float valeur;
+		} objet;
 
 void ajout_catalogue (objet t[], int *nbe, objet new_element) // ok
 {
